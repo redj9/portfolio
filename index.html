@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8124ae1d5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <!-- === Background container === -->
+    <div class="container">
+        <div class="hex-grid">
+            <div class="light"></div>
+            <div class="grid"></div>
+        </div>
+        <!-- === End of background container === -->
+
+        <header>
+            <!-- === HEADER START === -->
+            <div class="sidebar">
+                <div class="circle">
+                    <div class="logo"></div>
+                    <div class="text">
+                        <p> Front --End Web developer</p></div>
+                    </div>
+                <h1>Delly Ramirez</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" ><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+
+            <!--Footer-->
+            <div class="footer">
+                <p>&copy; Copyright 2023 </p>
+            </div>
+        </header>
+
+        <!--Movile nav Toggle-->
+        <i class="fas fa-bars" id="menuBtn"></i>
+
+        <!-- === HEADER END === -->   
+
+        <!-- === MAIN CONTENT START === -->
+        <main>
+        <!-- Home section Start -->
+            <section id="home">
+                <div class="home-row">
+                    <h1>Hi, this is <br> Delly Ramirez <span>.</span></h1>
+                    <p>i'm a <span class="auto-input"></span></p>
+                </div>
+            </section>
+
+            <section id="about">
+                <h1 class="sub-heading">About Me</h1>
+                <div class="divider"></div>
+                <p class="sub-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, consequuntur autem inventore maiores minima deleniti. Illum dolore officia accusamus, dolorem quae commodi odit, asperiores maiores, consequuntur inventore sapiente laboriosam nesciunt.</p>
+    
+                <!--img col-->
+                <div class="about-col">
+                    <div class="img-col">
+                        <img src="images/about.jpg" alt="">
+                    </div>
+
+                    <!--information-->
+                    <div class="info-col">
+                        <h2>Front-end Developer</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam blanditiis voluptates corporis vel quas odio.</p>
+                        <div class="icon-list-col">
+
+                          <!--Left side list-->
+                            <div class="icon-list">
+                                <ul>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Age:</strong><span>26</span></li>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Mail:</strong><span>correo@gmail.com</span></li>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Country:</strong><span>Colombia</span></li>
+
+                                </ul>
+                            </div>
+                            <!--Right side list-->
+                            <div class="icon-list">   
+                                <ul>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Institution:</strong><span>Alura</span></li>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Finish date:</strong><span>2023</span></li>
+                                    <li><i class="fa fa-angle-right"></i> <strong>Freelance:</strong><span>Aviable</span></li>
+                                </ul>
+                            </div>
+                        </div>     
+                    </div>
+                </div>
+            </section>
+            <!-- === Skill section start === -->
+            <section id="skill">
+                <h1 class="sub-heading">Skills</h1>
+                <div class="divider"></div>
+                <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempora obcaecati beatae vel non recusandae commodi laborum, id mollitia, laboriosam ut delectus nostrum culpa hic quae voluptate vero voluptatibus voluptatem.</p>
+
+                <div class="skill-row">
+                    <!--skill 1-->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>HTML</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <!--skill 2-->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>CSS</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <!--skill 3-->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>JavaScript</h2>
+                            <h2>65%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <!--skill 4-->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>Java</h2>
+                            <h2>65%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line"style="width: 65%;" ></div>
+                        </div>
+                     </div>
+                        <!--skill 5-->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>SQL</h2>
+                            <h2>65%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line"style="width: 70%;" ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- === Skill section End === -->
+
+            <!-- === Portfolio section Start === -->
+            <section id="portfolio">
+                <h1 class="sub-heading">Portfolio</h1>
+                <div class="divider"></div>
+                <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa saepe minus nulla quia voluptatum inventore porro eum quae at quos accusamus voluptatibus harum, cupiditate ullam placeat et enim deserunt vero.</p>
+
+                <div class="port-row">
+
+                    <!--Portolio Item 1-->
+                    <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-1.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 1</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <!--Portolio Item 2-->
+                    <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-2.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 2</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                     <!--Portolio Item 3-->
+                     <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-2.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 3</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <!--Portolio Item 4-->
+                    <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-2.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 4</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+
+                    <!--Portolio Item 5-->
+                    <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-2.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 5</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                     <!--Portolio Item 6-->
+                     <div class="port-item">
+                        <div class="port-img">
+                            <img src="images/proyecto-2.png" alt="">
+                        </div>
+                        <div class="port-info">
+                            <h4>Project 6</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium ullam eveniet, corrupti doloribus voluptas voluptatem ipsum cum quisquam deserunt enim sint officiis, praesentium accusantium dolore molestiae! Deserunt, dignissimos saepe!</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Portfolio section End-->
+
+           
+        </main>  
+
+    
+        
+       
+
+    </div>
+
+    <!--Typed.JS File-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!--JS file-->
+    <script src="script.js"></script>
+
+</body>
+</html>
