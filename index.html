@@ -30,10 +30,10 @@
 
             <nav>
                 <ul>
-                    <li><a href="#" class="active" ><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
                     <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
                     <li><a href="#portfolio"><i class="fas fa-briefcase"></i>Portfolio</a></li>
-                    <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
                 </ul>
             </nav>
 
@@ -254,11 +254,51 @@
 
                         <!--Email box-->
                         <div class="icon-box">
-                            <div class="ico"><i></i></div>
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Email:</h4>
+                                <p>correo@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <!--Call box-->
+                        <div class="icon-box">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Phone:</h4>
+                                <p>+57</p>
+                            </div>
+                        </div>
+
+                        <!--Location box-->
+                        <div class="icon-box">
+                            <div class="icon">
+                                <i class="fas fa-location"></i>
+                            </div>
+                            <div class="info">
+                                <h4>Location:</h4>
+                                <p>Colombia</p>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39472206228!2d-74.27262353731334!3d4.648620640277264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1694799011320!5m2!1ses!2sco" width="100%" height="250" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <!--right col-->
-                    <div class="contact-right"></div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="name" id="name" placeholder="Your name">
+                            <input type="email" id="email" placeholder="Your email">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                            <textarea name="msg" id="msg" rows="9" placeholder="Your message"></textarea>
+                            <input type="submit" value="Send message">
+                        </form>
+
+                    </div>
                 </div>
             </section>
             <!-- === Contact Section End === -->
